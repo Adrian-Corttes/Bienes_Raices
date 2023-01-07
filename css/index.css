@@ -36,12 +36,12 @@ img{
 }
 
 /* Header Section */
-.header{
+.header.on{
    background-image: url(../img/header.jpg);
    background-position: center center;
    background-size: cover;
    height: 100vh;
-   min-height: 70rem;
+   min-height: 60rem;
 }
 .header__title{
    color: var(--white);

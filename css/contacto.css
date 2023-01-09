@@ -1,0 +1,18 @@
+label{
+   display: block;
+   margin-bottom: 0.5rem;
+}
+
+.form{
+
+}
+.form__fieldset{
+   margin: auto;
+   padding: 2rem;
+}
+.input{
+   width: 100%;
+   padding: 0.5rem;
+   display: block;
+   margin-bottom: 1rem;
+}

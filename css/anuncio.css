@@ -1,0 +1,12 @@
+/* Anuncios */
+.advertisement{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.text-center{
+   max-width: 800px;
+}
+.text-center__text{
+   line-height: 2.5rem;
+}

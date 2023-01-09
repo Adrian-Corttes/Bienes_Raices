@@ -101,14 +101,19 @@ text-transform: uppercase;
 .main__cards{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 .main__title{
    text-align: center;
    font-weight: 300;
 }
 .main__card{
+   flex-grow: 0;
+   flex-shrink: 0;
    flex-basis: calc(33.3% - 1rem);
    border: solid 1px var(--border);
+   background-color: #F5F5F5;
+   margin-bottom: 2rem;
 }
 .advertisement{
    padding: 2rem;
@@ -144,9 +149,11 @@ text-transform: uppercase;
 }
 .generalities{
    display: flex;
+   flex: 1;
    list-style: none;
    padding: 0;
    justify-content: space-evenly;
+   max-width: 500px;
 }
 .generalities__item{
    display: flex;
